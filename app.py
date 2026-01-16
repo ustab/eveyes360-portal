@@ -145,8 +145,8 @@ elif sayfa == "📊 Bilimsel Analiz (Makale)":
 # 4. IP Adresini Göster ve Başlat
 print("\n" + "="*50)
 print("SİTE ŞİFRESİ (ENDPOINT IP):")
-!curl ipv4.icanhazip.com
+curl ipv4.icanhazip.com
 print("="*50 + "\n")
 
 # Uygulamayı Başlat
-!streamlit run app.py & npx localtunnel --port 8501
+streamlit run app.py & npx localtunnel --port 8501
