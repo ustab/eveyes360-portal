@@ -142,11 +142,5 @@ elif sayfa == "📊 Bilimsel Analiz (Makale)":
     st.table(pd.DataFrame(data)) # Profesyonel tablo görünümü
 """)
 
-# 4. IP Adresini Göster ve Başlat
-print("\n" + "="*50)
-print("SİTE ŞİFRESİ (ENDPOINT IP):")
-curl ipv4.icanhazip.com
-print("="*50 + "\n")
-
 # Uygulamayı Başlat
 streamlit run app.py & npx localtunnel --port 8501
