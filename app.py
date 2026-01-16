@@ -142,5 +142,3 @@ elif sayfa == "📊 Bilimsel Analiz (Makale)":
     st.table(pd.DataFrame(data)) # Profesyonel tablo görünümü
 """)
 
-# Uygulamayı Başlat
-streamlit run app.py & npx localtunnel --port 8501
