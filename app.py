@@ -7,15 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1WzZz4vROiAPTVCRKjQoLXWTcDMxxNIni
 """
 
-!pkill -9 streamlit
-!pkill -9 npx
-
-# 1. Mevcut süreçleri temizleyelim ki çakışma olmasın
-!pkill streamlit
-!pkill npx
-
 # 2. Gerekli kütüphaneyi kuralım
-!pip install streamlit -q
+pip install streamlit -q
 
 import streamlit as st
 import pandas as pd
